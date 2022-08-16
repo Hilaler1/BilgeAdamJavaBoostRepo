@@ -11,7 +11,7 @@ public class RawPrice {
 
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Please enter the end price of the product: ");
-		double EndPrice= scanner.nextInt();
+		double EndPrice= scanner.nextDouble();
 		scanner.close();
 		double RawPrice = (EndPrice/1.18)/1.15;
 		System.out.println("Raw price of product: " + RawPrice );
