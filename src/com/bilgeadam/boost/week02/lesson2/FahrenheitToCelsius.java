@@ -9,7 +9,7 @@ public class FahrenheitToCelsius {
 		double F, C;
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Please enter the Fahrenheit degree you want to convert to Celsius:");
-		F= scanner.nextInt();
+		F= scanner.nextDouble();
 		scanner.close();
 		C=(F-32)/1.8;
 		System.out.println(F+" F degree = " + C +" C degree");
